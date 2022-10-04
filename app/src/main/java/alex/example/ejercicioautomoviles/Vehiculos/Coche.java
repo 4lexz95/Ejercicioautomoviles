@@ -2,7 +2,9 @@ package alex.example.ejercicioautomoviles.Vehiculos;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Coche extends AppCompatActivity {
+import java.io.Serializable;
+
+public class Coche implements Serializable {
 
 private String marca, modelo, color;
 

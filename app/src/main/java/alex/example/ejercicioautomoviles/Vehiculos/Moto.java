@@ -1,6 +1,8 @@
 package alex.example.ejercicioautomoviles.Vehiculos;
 
-public class Moto {
+import java.io.Serializable;
+
+public class Moto implements Serializable {
     private String marca, modelo;
     private int cc;
 
